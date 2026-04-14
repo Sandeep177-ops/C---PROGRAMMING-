@@ -1,0 +1,28 @@
+#include <stdio.h>
+void main()
+{
+    int i=1,n,a=0,b=1,c;
+    int sum1=0,sum2=0;
+    printf("enter the number :");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        c=a+b;
+        if(a%2==1)
+        {
+            
+            sum1=sum1+a;
+        }
+        else
+        {
+           sum2=sum2+a;
+        }
+        a=b;
+        b=c;
+        i++;
+        
+    }
+    
+    printf("the sum of odd:%d\n",sum1);
+    printf("the sum of even:%d",sum2);
+}
