@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void main()
+{   int x,y,i;
+    i=10;
+    x=i++;
+    y=++i;
+    printf("x:%d\n",x);
+    printf("y:%d\n",y);
+    printf("i:%d\n",i);
+    
+}
