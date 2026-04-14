@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+    int i;
+    scanf("%d",&i);
+    while(i<=10)
+    {
+        if(i%2==0)
+        {
+            
+        
+        printf("%d the number is even\n",i);
+        } 
+        
+        
+        i++;
+    }
+    printf("end");
+    
+}
