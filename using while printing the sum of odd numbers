@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main()
+{
+    int i=1,n,sum=0;
+    printf("enter the number:");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        if(i%2!=0)
+        {   printf("%d\n",i);
+            sum=sum+i;
+        }
+        i++;
+        
+    }
+    printf("the sum of odd is:%d",sum);
+}
